@@ -18,7 +18,7 @@ int main (int argc, char* argv[])
     cout << "The second number you have entered is " << y << endl;
     double minimum_value = CalculateMinimum (x, y);
     std::cout << "The minimum value of " << x << " and " << y
-              << " is " << minimum_value << "\n";
+              << " is " << minimum_value << "\n"<< "\a";
 
     return 0;
 }
