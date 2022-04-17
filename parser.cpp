@@ -19,7 +19,7 @@ int main ()
   string add(".pdb.gz");
   file = pdb+add;
   cout << file << endl;
-  system("/mnt/d/git/c0d3z4pUblik/batch_download.sh; ./batch_download.sh -f listfile.txt -p &");
+  system("./batch_download.sh -f listfile.txt -p");
   system(("gzip -d < "+file+" > "+pdb+".pdb").c_str());
   return 0;
 }
