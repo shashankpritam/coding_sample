@@ -3,6 +3,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// This code is inspired from the book "Guide to Scientific Computing in C++" by Fancis and Whiteley
+
 using namespace std;
 double CalculateMinimum (double a, double b);
 
